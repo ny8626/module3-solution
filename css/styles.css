@@ -56,6 +56,10 @@ margin-top: 12px;
 
 
 /* HOME PAGE */
+.text-center {
+  color: #29260b;
+  font-size: 0.8em;
+}
 .menu-tile {
   height: auto;
   width: 100%;
