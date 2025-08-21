@@ -17,8 +17,64 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar nav-bar-default">
+      <div class="container">
+        <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-xs">
+            </a>
 
-  <h1>Hello Coursera!</h1>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Sushi</a>
+            </li>
+            </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav>
+  </header>
+
+  <div id="main-content" class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <a href="#"><div class="menu-tile"><span>Chicken</span></div></a>
+        <p class="menu-item-details">Crispy chicken thigh tossed in our housemade hot honey glaze, stacked with pickles and slaw on a toasted brioche bun. Why it works: Straightforward, craveable, and sensory.</p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <a href="#"><div class="menu-tile"><span>Beef</span></div></a>
+        <p class="menu-item-details">When writing menu descriptions, you should also take the opportunity to emphasize the quality of your food and ingredients. Try using words like “fresh”, “local”, or “organic” — these will help customers know that they’re getting the best possible dish from your restaurant.
+
+For example, instead of simply listing what’s in a sandwich, try saying something like “a freshly baked baguette filled with organic roast beef and cheddar cheese”. This description not only tells customers what kind of sandwich they’re ordering but it also shows that you’re committed to using only the best ingredients.</p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <a href="#"><div class="menu-tile"><span>Sushi</span></div></a>
+        <p class="menu-item-details">When writing menu descriptions, you should also take the opportunity to emphasize the quality of your food and ingredients. Try using words like “fresh”, “local”, or “organic” — these will help customers know that they’re getting the best possible dish from your restaurant.
+
+For example, instead of simply listing what’s in a sandwich, try saying something like “a freshly baked baguette filled with organic roast beef and cheddar cheese”. This description not only tells customers what kind of sandwich they’re ordering but it also shows that you’re committed to using only the best ingredients.</p>
+    </div>
+  </div>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #c4c39b;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+  /* Header */
+.navbar-brand {
+padding-top: 10px;
+height: 80px;
+}
+.navbar-brand h1 { 
+padding-top: 10px;
+font-size: 5vw; /* 1vw = 1% of viewport width */
+}
+.navbar-brand p { 
+font-size: .6em;
+margin-top: 12px;
+}
+
+#header-nav {
+  background-color: #a17b00;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* FOOD, LLC */
+  font-family: 'Lora', serif;
+  color: #464009;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #c4a310;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* HOME PAGE */
+.menu-tile {
+  height: auto;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.menu-tile span {
+  position: relative;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #3a5802;
+  color: #fff;
+  opacity: .8;
+}
+.menu-item-details {
+  width: 100%;
+  font-size: .9em;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: visible;
+  word-wrap: break-word; /* 長い単語を折り返す */
+  white-space: normal; /* 改行を許可する（デフォルト） */
+}
+
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-md-12, .col-sm-12, .col-xs-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+#collapsable-nav {
+    display: none; /* デフォルト非表示 */
+}
+#nav-list {
+    display: none; /* デフォルト非表示 */
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#collapsable-nav {
+    display: none; /* デフォルト非表示 */
+}
+#nav-list {
+    display: none; /* デフォルト非表示 */
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#collapsable-nav {
+    display: none; /* デフォルト非表示 */
+}
+#nav-list {
+    display: none; /* デフォルト非表示 */
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+#collapsable-nav a { /* Collapsed nav menu text */
+font-size: 1.2em;
+}
+
+#call-btn > a {
+font-size: 1.5em;
+display: block;
+margin: 0 20px;
+padding: 10px;
+border: 2px solid #fff;
+background-color: #f6b319;
+color: #951c49;
+}
+#xs-deliver {
+margin-top: 5px;
+font-size: .7em;
+letter-spacing: .1em;
+text-transform: uppercase;
+}
+  /* End Header */
+
+}
